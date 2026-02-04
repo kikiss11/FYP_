@@ -1,0 +1,131 @@
+# Google Trends Scraper Configuration
+# This file defines which keywords and regions to track
+
+# Keywords to monitor
+keywords:
+  - pant
+  - dress
+  - t-shirt
+
+# Regions to track
+# Use ISO 3166-1 alpha-2 codes
+# Full list: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+# Leave empty "" for Worldwide data
+regions:
+  # Worldwide
+  - code: ""
+    name: Worldwide
+  
+  # Asia
+  - code: HK
+    name: Hong Kong
+  - code: TW
+    name: Taiwan
+  - code: SG
+    name: Singapore
+  - code: JP
+    name: Japan
+  - code: KR
+    name: South Korea
+  - code: CN
+    name: China
+  - code: MY
+    name: Malaysia
+  - code: TH
+    name: Thailand
+  - code: VN
+    name: Vietnam
+  - code: PH
+    name: Philippines
+  - code: ID
+    name: Indonesia
+  - code: IN
+    name: India
+  
+  # North America
+  - code: US
+    name: United States
+  - code: CA
+    name: Canada
+  - code: MX
+    name: Mexico
+  
+  # Europe
+  - code: GB
+    name: United Kingdom
+  - code: DE
+    name: Germany
+  - code: FR
+    name: France
+  - code: IT
+    name: Italy
+  - code: ES
+    name: Spain
+  - code: NL
+    name: Netherlands
+  - code: SE
+    name: Sweden
+  - code: PL
+    name: Poland
+  
+  # Oceania
+  - code: AU
+    name: Australia
+  - code: NZ
+    name: New Zealand
+  
+  # Middle East
+  - code: AE
+    name: United Arab Emirates
+  - code: SA
+    name: Saudi Arabia
+  
+  # South America
+  - code: BR
+    name: Brazil
+  - code: AR
+    name: Argentina
+
+# Time range for queries
+# Options:
+#   - "now 7-d"     - Past 7 days (hourly data)
+#   - "today 1-m"   - Past month
+#   - "today 3-m"   - Past 3 months
+#   - "today 12-m"  - Past year
+#   - "today 5-y"   - Past 5 years
+#   - "all"         - Since 2004
+#   - "2024-01-01 2024-12-31" - Custom range
+timeframe: "now 7-d"
+
+# Google Trends category ID (0 = All categories)
+# Fashion & Style = 185
+# Shopping = 18
+# Apparel = 68
+category: 68
+
+# Search property filter
+# Options: "" (Web), "news", "images", "youtube", "froogle" (Shopping)
+property: ""
+
+# Scheduler settings
+scheduler:
+  # Enable/disable automated scheduling
+  enabled: true
+  # Day of week (lowercase): sun, mon, tue, wed, thu, fri, sat
+  day_of_week: sunday
+  # Hour in 24h format (UTC)
+  hour: 2
+  # Minute
+  minute: 0
+
+# Request settings
+requests:
+  # Delay between API calls (seconds) to avoid rate limiting
+  delay: 5
+  # Number of retries on failure
+  retries: 3
+  # Request timeout (connect, read) in seconds
+  timeout:
+    connect: 10
+    read: 30
+
