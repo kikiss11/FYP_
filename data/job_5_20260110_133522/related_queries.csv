@@ -1,0 +1,481 @@
+query,value,keyword,region_code,query_type
+pants,100,pant,HK,top
+track pant,33,pant,HK,top
+yoga pant,25,pant,HK,top
+carhartt,20,pant,HK,top
+uniqlo pant,18,pant,HK,top
+pant 中文,15,pant,HK,top
+double knee pant,14,pant,HK,top
+plant,10,pant,HK,top
+lululemon groove pant,7,pant,HK,top
+carhartt brandon pant,2,pant,HK,top
+carhartt landon pant,1,pant,HK,top
+rishabh pant,1,pant,HK,top
+track pant,385450,pant,HK,rising
+plant,115250,pant,HK,rising
+carhartt brandon pant,29000,pant,HK,rising
+carhartt landon pant,7850,pant,HK,rising
+double knee pant,80,pant,HK,rising
+dress code,100,dress,HK,top
+wedding dress,37,dress,HK,top
+black dress,36,dress,HK,top
+dress up,32,dress,HK,top
+white dress,27,dress,HK,top
+red dress,17,dress,HK,top
+dress 中文,16,dress,HK,top
+party dress,14,dress,HK,top
+my dress,13,dress,HK,top
+dress shirt,13,dress,HK,top
+pink dress,11,dress,HK,top
+dress to impress,11,dress,HK,top
+formal dress,11,dress,HK,top
+maxi dress,11,dress,HK,top
+dress shoes,10,dress,HK,top
+chinese dress,10,dress,HK,top
+zara dress,10,dress,HK,top
+zara,10,dress,HK,top
+midi dress,9,dress,HK,top
+black tie,8,dress,HK,top
+cocktail dress,7,dress,HK,top
+silk dress,7,dress,HK,top
+skirt,7,dress,HK,top
+bridal dress,7,dress,HK,top
+black tie dress code,6,dress,HK,top
+wedding dress hong kong,49500,dress,HK,rising
+sydney sweeney dress,29350,dress,HK,rising
+victoria beckham dress,15650,dress,HK,rising
+muslin dress,2000,dress,HK,rising
+peppermayo dress,1900,dress,HK,rising
+annual dinner dress,1250,dress,HK,rising
+prom dress hk,1150,dress,HK,rising
+holly ramsay wedding dress,950,dress,HK,rising
+rihoas dress,350,dress,HK,rising
+velvet dress,300,dress,HK,rising
+sydney sweeney,200,dress,HK,rising
+wedding dress cream,200,dress,HK,rising
+bridesmaid dress,200,dress,HK,rising
+party dress hk,200,dress,HK,rising
+knit dress,170,dress,HK,rising
+cheongsam dress,150,dress,HK,rising
+formal dress code,140,dress,HK,rising
+zara party dress,120,dress,HK,rising
+bridal dress,110,dress,HK,rising
+academic dress,100,dress,HK,rising
+maid dress,100,dress,HK,rising
+lounge dress,90,dress,HK,rising
+christmas party dress code,70,dress,HK,rising
+sequin dress,60,dress,HK,rising
+a line dress,50,dress,HK,rising
+shirt,100,t-shirt,HK,top
+sleeveless t-shirt,10,t-shirt,HK,top
+t-shirt size chart,9,t-shirt,HK,top
+hellfire club t-shirt,2,t-shirt,HK,top
+crocodile t-shirt,0,t-shirt,HK,top
+sleeveless t-shirt,134400,t-shirt,HK,rising
+hellfire club t-shirt,27450,t-shirt,HK,rising
+crocodile t-shirt,6300,t-shirt,HK,rising
+pants,100,pant,US,top
+pant size,61,pant,US,top
+black pant,50,pant,US,top
+pant suit,32,pant,US,top
+cargo pant,18,pant,US,top
+pant suits,16,pant,US,top
+aritzia,11,pant,US,top
+sweat pant,11,pant,US,top
+track pant,10,pant,US,top
+snow pant,8,pant,US,top
+pant meaning,8,pant,US,top
+pant store,7,pant,US,top
+pant sizes,7,pant,US,top
+pant size chart,7,pant,US,top
+vuori,6,pant,US,top
+satin pant,6,pant,US,top
+women pant suits,6,pant,US,top
+mens pant size,6,pant,US,top
+banana republic,5,pant,US,top
+womens pant suit,5,pant,US,top
+pant suits for women,4,pant,US,top
+aritzia lodge pant,2,pant,US,top
+la ligne colby pant,1,pant,US,top
+sweat pant jeans,1,pant,US,top
+vuori meta pant,1,pant,US,top
+seaver,9650,pant,US,rising
+poirot meaning,5400,pant,US,rising
+aja,1750,pant,US,rising
+culotte,450,pant,US,rising
+snow pant,350,pant,US,rising
+sitka gradient pant,300,pant,US,rising
+aritzia ensemble pant,200,pant,US,rising
+taylor stitch apres pant,190,pant,US,rising
+la ligne colby pant,180,pant,US,rising
+aritzia lodge pants,160,pant,US,rising
+aritzia lodge pant,80,pant,US,rising
+skims foldover pant,70,pant,US,rising
+sweat pant,60,pant,US,rising
+reformation vida low rise pant,60,pant,US,rising
+sweat pant jeans,50,pant,US,rising
+mens pant size,40,pant,US,rising
+vuori meta pant,40,pant,US,rising
+black dress,100,dress,US,top
+wedding dress,73,dress,US,top
+white dress,63,dress,US,top
+red dress,44,dress,US,top
+dresses,43,dress,US,top
+blue dress,42,dress,US,top
+mini dress,38,dress,US,top
+dress shoes,36,dress,US,top
+long sleeve dress,33,dress,US,top
+green dress,31,dress,US,top
+maxi dress,30,dress,US,top
+pink dress,27,dress,US,top
+christmas dress,26,dress,US,top
+sweater dress,25,dress,US,top
+dress pants,24,dress,US,top
+brown dress,22,dress,US,top
+midi dress,21,dress,US,top
+gold dress,18,dress,US,top
+winter dress,15,dress,US,top
+dress to impress,15,dress,US,top
+velvet dress,13,dress,US,top
+dress shirts,13,dress,US,top
+satin dress,12,dress,US,top
+holiday dress,12,dress,US,top
+sequin dress,12,dress,US,top
+sydney sweeney silver dress,37700,dress,US,rising
+jamal bryant wife dress,10050,dress,US,rising
+sydney sweeney sheer dress,4550,dress,US,rising
+sydney sweeney dress,3400,dress,US,rising
+nye dress,1500,dress,US,rising
+holiday party dress,1450,dress,US,rising
+christmas party dress,1050,dress,US,rising
+christmas dress women,1000,dress,US,rising
+christmas dress,850,dress,US,rising
+how to choose a wedding dress,850,dress,US,rising
+holiday dress,800,dress,US,rising
+girls christmas dress,750,dress,US,rising
+toddler christmas dress,550,dress,US,rising
+sweater dress women,350,dress,US,rising
+winter dress,300,dress,US,rising
+sweater dress,200,dress,US,rising
+velvet dress,190,dress,US,rising
+white sweater dress,180,dress,US,rising
+long sleeve mini dress,120,dress,US,rising
+black long sleeve dress,120,dress,US,rising
+white graduation dress,80,dress,US,rising
+long sleeve dress,70,dress,US,rising
+graduation dress,70,dress,US,rising
+blazer dress,70,dress,US,rising
+burgundy dress,60,dress,US,rising
+shirt,100,t-shirt,US,top
+black t-shirt,59,t-shirt,US,top
+white t-shirt,47,t-shirt,US,top
+long sleeve t-shirt,43,t-shirt,US,top
+t shirt,34,t-shirt,US,top
+shirts,27,t-shirt,US,top
+t-shirt design,24,t-shirt,US,top
+t-shirt store,19,t-shirt,US,top
+t-shirt printing,17,t-shirt,US,top
+custom t-shirt,16,t-shirt,US,top
+t-shirt bra,10,t-shirt,US,top
+roblox t-shirt,7,t-shirt,US,top
+black long sleeve t-shirt,6,t-shirt,US,top
+gildan t-shirt,6,t-shirt,US,top
+t-shirt stores,5,t-shirt,US,top
+custom t-shirt printing,5,t-shirt,US,top
+t-shirt template,5,t-shirt,US,top
+t-shirt designer,5,t-shirt,US,top
+ai news today,4,t-shirt,US,top
+stranger things t-shirt,3,t-shirt,US,top
+openai news today,1,t-shirt,US,top
+technology news today,1,t-shirt,US,top
+tuxedo t-shirt,1,t-shirt,US,top
+youth t-shirt size chart by age,0,t-shirt,US,top
+grinch t-shirt women's,0,t-shirt,US,top
+grinch t-shirt women's,4000,t-shirt,US,rising
+technology news today,1300,t-shirt,US,rising
+ai news today,1300,t-shirt,US,rising
+openai news today,1150,t-shirt,US,rising
+wkrp turkey drop t-shirt,650,t-shirt,US,rising
+stranger things t-shirt,650,t-shirt,US,rising
+carhartt force® relaxed fit midweight long-sleeve quarter-zip mock-neck t-shirt,500,t-shirt,US,rising
+youth t-shirt size chart by age,130,t-shirt,US,rising
+essentials t-shirt original,110,t-shirt,US,rising
+long sleeve t-shirt,100,t-shirt,US,rising
+black long sleeve t-shirt,80,t-shirt,US,rising
+t-shirt press machine and printer,70,t-shirt,US,rising
+custom t-shirt printing,50,t-shirt,US,rising
+tuxedo t-shirt,50,t-shirt,US,rising
+a bathing ape t-shirt original,50,t-shirt,US,rising
+black pant,100,pant,GB,top
+the pant,97,pant,GB,top
+carhartt,84,pant,GB,top
+cargo pant,39,pant,GB,top
+track pant,37,pant,GB,top
+coat pant,32,pant,GB,top
+pant suit,26,pant,GB,top
+pant yr ochain,22,pant,GB,top
+lululemon,20,pant,GB,top
+paint,18,pant,GB,top
+brandon pant,18,pant,GB,top
+pant meaning,16,pant,GB,top
+carhartt brandon pant,15,pant,GB,top
+gramicci g pant,14,pant,GB,top
+rishabh pant,13,pant,GB,top
+landon pant,10,pant,GB,top
+carhartt landon pant,8,pant,GB,top
+carhartt single knee pant,7,pant,GB,top
+carhartt newel pant,6,pant,GB,top
+carhartt simple pant,6,pant,GB,top
+carhartt aaron pant,3,pant,GB,top
+carhartt wip single knee pant,3,pant,GB,top
+anoki pant,2,pant,GB,top
+carhartt klondike pant,2,pant,GB,top
+seaver,2,pant,GB,top
+anoki pant,20550,pant,GB,rising
+seaver,15350,pant,GB,rising
+lululemon align™ high-rise pant 28,13000,pant,GB,rising
+mountain equipment ibex pro pant,12100,pant,GB,rising
+edwin tyrell pant,11300,pant,GB,rising
+gaia conception anoki pant shade fox,7100,pant,GB,rising
+carhartt wip single knee pant,350,pant,GB,rising
+carhartt aaron pant,300,pant,GB,rising
+carhartt wip aviation pant,190,pant,GB,rising
+carhartt calder pant,170,pant,GB,rising
+carhartt simple pant,150,pant,GB,rising
+carhartt single knee pant,140,pant,GB,rising
+carhartt klondike pant,100,pant,GB,rising
+vuori fleet pant,90,pant,GB,rising
+lululemon,70,pant,GB,rising
+coat pant,70,pant,GB,rising
+landon pant,60,pant,GB,rising
+pant meaning,50,pant,GB,rising
+brandon pant,50,pant,GB,rising
+carhartt,40,pant,GB,rising
+gramicci g pant,40,pant,GB,rising
+black pant,40,pant,GB,rising
+black dress,100,dress,GB,top
+wedding dress,46,dress,GB,top
+long dress,44,dress,GB,top
+fancy dress,42,dress,GB,top
+white dress,37,dress,GB,top
+mini dress,34,dress,GB,top
+red dress,33,dress,GB,top
+dresses,33,dress,GB,top
+maxi dress,33,dress,GB,top
+christmas dress,31,dress,GB,top
+party dress,29,dress,GB,top
+midi dress,25,dress,GB,top
+green dress,24,dress,GB,top
+long sleeve dress,24,dress,GB,top
+blue dress,23,dress,GB,top
+brown dress,21,dress,GB,top
+pink dress,20,dress,GB,top
+sequin dress,19,dress,GB,top
+velvet dress,18,dress,GB,top
+lace dress,17,dress,GB,top
+jumper dress,16,dress,GB,top
+zara dress,15,dress,GB,top
+gold dress,15,dress,GB,top
+shirt dress,13,dress,GB,top
+burgundy dress,13,dress,GB,top
+holly ramsay wedding dress,5450,dress,GB,rising
+new years eve dress,1900,dress,GB,rising
+christmas day dress,1450,dress,GB,rising
+sydney sweeney dress,1200,dress,GB,rising
+christmas dress women,800,dress,GB,rising
+christmas party dress,750,dress,GB,rising
+christmas dress,750,dress,GB,rising
+girls christmas dress,700,dress,GB,rising
+red velvet dress,300,dress,GB,rising
+jumper dress,250,dress,GB,rising
+green velvet dress,250,dress,GB,rising
+black sequin dress,200,dress,GB,rising
+jumper dress for women,200,dress,GB,rising
+velvet dress,200,dress,GB,rising
+sparkly dress,150,dress,GB,rising
+knitted dress,140,dress,GB,rising
+party dress,130,dress,GB,rising
+burgundy dress,130,dress,GB,rising
+black long sleeve dress,130,dress,GB,rising
+sequin dress,130,dress,GB,rising
+blazer dress,120,dress,GB,rising
+burgandy dress,120,dress,GB,rising
+long sleeve mini dress,120,dress,GB,rising
+fancy dress shop near me,90,dress,GB,rising
+bandage dress,80,dress,GB,rising
+shirt,100,t-shirt,GB,top
+black t-shirt,56,t-shirt,GB,top
+white t-shirt,51,t-shirt,GB,top
+mens t-shirt,50,t-shirt,GB,top
+long sleeve t-shirt,38,t-shirt,GB,top
+nike t-shirt,27,t-shirt,GB,top
+adidas t-shirt,19,t-shirt,GB,top
+boys t-shirt,14,t-shirt,GB,top
+t-shirt printing,13,t-shirt,GB,top
+t-shirt dress,12,t-shirt,GB,top
+custom t-shirt,7,t-shirt,GB,top
+north face t-shirt,6,t-shirt,GB,top
+under armour,6,t-shirt,GB,top
+essentials t-shirt,5,t-shirt,GB,top
+men's long sleeve t-shirt,5,t-shirt,GB,top
+black long sleeve t-shirt,5,t-shirt,GB,top
+white long sleeve t-shirt,5,t-shirt,GB,top
+t-shirt men's shirts,5,t-shirt,GB,top
+stranger things t-shirt,4,t-shirt,GB,top
+christmas t-shirt womens,2,t-shirt,GB,top
+essentials hoodie,1,t-shirt,GB,top
+zara t-shirt woman,0,t-shirt,GB,top
+spotty t-shirt boy,0,t-shirt,GB,top
+christmas t-shirt womens,23200,t-shirt,GB,rising
+stranger things t-shirt,2100,t-shirt,GB,rising
+zara t-shirt woman,150,t-shirt,GB,rising
+spotty t-shirt boy,120,t-shirt,GB,rising
+men's long sleeve t-shirt,100,t-shirt,GB,rising
+essentials hoodie,80,t-shirt,GB,rising
+custom t-shirt,70,t-shirt,GB,rising
+t-shirt men's shirts,60,t-shirt,GB,rising
+north face t-shirt,50,t-shirt,GB,rising
+long sleeve t-shirt,50,t-shirt,GB,rising
+carhartt,100,pant,JP,top
+gramicci pant,74,pant,JP,top
+double knee pant,59,pant,JP,top
+carhartt wip,56,pant,JP,top
+supreme cargo pant,43,pant,JP,top
+pant 意味,36,pant,JP,top
+brandon pant,33,pant,JP,top
+carhartt wip brandon pant,20,pant,JP,top
+carhartt brandon pant,18,pant,JP,top
+rishabh pant,16,pant,JP,top
+carhartt double knee pant,15,pant,JP,top
+nb grey wide pant,15,pant,JP,top
+verb light running pant,10,pant,JP,top
+carhartt landon pant,10,pant,JP,top
+doro warm pant,8,pant,JP,top
+needles 417 edifice 25 fw 別注 dolman sleeve track jacket & hd sweat pant,8,pant,JP,top
+carhartt wip brandon pant,65150,pant,JP,rising
+nb grey wide pant,48300,pant,JP,rising
+verb light running pant,32800,pant,JP,rising
+carhartt landon pant,31850,pant,JP,rising
+doro warm pant,26900,pant,JP,rising
+needles 417 edifice 25 fw 別注 dolman sleeve track jacket & hd sweat pant,25600,pant,JP,rising
+supreme cargo pant,80,pant,JP,rising
+dress in,100,dress,JP,top
+the dress,64,dress,JP,top
+dress code,40,dress,JP,top
+wedding dress,24,dress,JP,top
+dress up,22,dress,JP,top
+mini dress,17,dress,JP,top
+red dress,16,dress,JP,top
+party dress,12,dress,JP,top
+dress shoes,12,dress,JP,top
+dress shirt,12,dress,JP,top
+winter dress,11,dress,JP,top
+formal dress,8,dress,JP,top
+satin dress,7,dress,JP,top
+dress 意味,6,dress,JP,top
+dress up darling,4,dress,JP,top
+dress to impress,4,dress,JP,top
+sea dress,4,dress,JP,top
+summer dress,3,dress,JP,top
+wedding guest dress,3,dress,JP,top
+dress 防水 ニット グローブ,2,dress,JP,top
+roussillon cut-out dress,0,dress,JP,top
+dress 防水 ニット グローブ,36400,dress,JP,rising
+roussillon cut-out dress,7950,dress,JP,rising
+winter dress,850,dress,JP,rising
+dress in,200,dress,JP,rising
+the dress,170,dress,JP,rising
+dress shoes,160,dress,JP,rising
+party dress,140,dress,JP,rising
+red dress,130,dress,JP,rising
+mini dress,120,dress,JP,rising
+formal dress,120,dress,JP,rising
+satin dress,110,dress,JP,rising
+wedding guest dress,60,dress,JP,rising
+dress code,40,dress,JP,rising
+the t-shirt,100,t-shirt,JP,top
+long t-shirt,39,t-shirt,JP,top
+long sleeve t-shirt,21,t-shirt,JP,top
+ai news today,13,t-shirt,JP,top
+crew neck t-shirt,13,t-shirt,JP,top
+nike t-shirt,13,t-shirt,JP,top
+openai news,7,t-shirt,JP,top
+roblox t-shirt,6,t-shirt,JP,top
+technology news today,3,t-shirt,JP,top
+stranger things t-shirt,2,t-shirt,JP,top
+human made t-shirt,2,t-shirt,JP,top
+whitesville t shirt,1,t-shirt,JP,top
+lacoste t-shirt,1,t-shirt,JP,top
+hellfire club t-shirt,0,t-shirt,JP,top
+ai news today,276550,t-shirt,JP,rising
+whitesville t shirt,24550,t-shirt,JP,rising
+lacoste t-shirt,20000,t-shirt,JP,rising
+hellfire club t-shirt,1850,t-shirt,JP,rising
+openai news,350,t-shirt,JP,rising
+technology news today,180,t-shirt,JP,rising
+the t-shirt,180,t-shirt,JP,rising
+stranger things t-shirt,150,t-shirt,JP,rising
+roblox t-shirt,120,t-shirt,JP,rising
+nike t-shirt,100,t-shirt,JP,rising
+long t-shirt,80,t-shirt,JP,rising
+pant size,100,pant,SG,top
+black pant,62,pant,SG,top
+long pant,60,pant,SG,top
+pant suit,45,pant,SG,top
+uniqlo,40,pant,SG,top
+pant meaning,37,pant,SG,top
+rishabh pant,37,pant,SG,top
+cargo pant,32,pant,SG,top
+pant size chart,21,pant,SG,top
+track pant,21,pant,SG,top
+lululemon groove pant,14,pant,SG,top
+rishabh pant stats,12,pant,SG,top
+jogger pant,8,pant,SG,top
+baggy pant,8,pant,SG,top
+sweat pant,7,pant,SG,top
+blue shirt matching pant,5,pant,SG,top
+pant hanger,5,pant,SG,top
+carhartt brandon pant,1,pant,SG,top
+gramicci gadget pant,1,pant,SG,top
+priyansh arya,1,pant,SG,top
+why do dogs pant so much,0,pant,SG,top
+lululemon groove pant,101650,pant,SG,rising
+rishabh pant stats,87150,pant,SG,rising
+carhartt brandon pant,10950,pant,SG,rising
+gramicci gadget pant,3850,pant,SG,rising
+priyansh arya,3700,pant,SG,rising
+why do dogs pant so much,2400,pant,SG,rising
+track pant,300,pant,SG,rising
+pant size chart,100,pant,SG,rising
+long pant,90,pant,SG,rising
+pant size,50,pant,SG,rising
+shirt,100,t-shirt,SG,top
+black t-shirt,44,t-shirt,SG,top
+uniqlo,39,t-shirt,SG,top
+t-shirt design,32,t-shirt,SG,top
+t-shirt printing,31,t-shirt,SG,top
+polo t-shirt,18,t-shirt,SG,top
+long sleeve t-shirt,17,t-shirt,SG,top
+nike,16,t-shirt,SG,top
+gold t-shirt,14,t-shirt,SG,top
+t-shirt printing singapore,12,t-shirt,SG,top
+adidas,10,t-shirt,SG,top
+balenciaga,10,t-shirt,SG,top
+roblox t-shirt,6,t-shirt,SG,top
+t-shirt mockup,5,t-shirt,SG,top
+bottega veneta t-shirt,4,t-shirt,SG,top
+t-shirt design template,4,t-shirt,SG,top
+armani exchange t-shirt,0,t-shirt,SG,top
+ssense,0,t-shirt,SG,top
+armani exchange,0,t-shirt,SG,top
+louis vuitton t-shirt original,0,t-shirt,SG,top
+gold t-shirt,214650,t-shirt,SG,rising
+balenciaga,151650,t-shirt,SG,rising
+t-shirt mockup,84900,t-shirt,SG,rising
+bottega veneta t-shirt,68100,t-shirt,SG,rising
+t-shirt design template,61250,t-shirt,SG,rising
+armani exchange t-shirt,4800,t-shirt,SG,rising
+ssense,4600,t-shirt,SG,rising
+armani exchange,3500,t-shirt,SG,rising
+louis vuitton t-shirt original,2600,t-shirt,SG,rising
+nike,250,t-shirt,SG,rising

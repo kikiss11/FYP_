@@ -1,0 +1,68 @@
+query,value,keyword,region_code,query_type
+pants,100,pant,HK,top
+track pant,33,pant,HK,top
+yoga pant,25,pant,HK,top
+carhartt,20,pant,HK,top
+uniqlo pant,18,pant,HK,top
+pant 中文,15,pant,HK,top
+double knee pant,14,pant,HK,top
+plant,10,pant,HK,top
+lululemon groove pant,7,pant,HK,top
+carhartt brandon pant,2,pant,HK,top
+carhartt landon pant,1,pant,HK,top
+rishabh pant,1,pant,HK,top
+track pant,385400,pant,HK,rising
+plant,115200,pant,HK,rising
+carhartt brandon pant,29050,pant,HK,rising
+carhartt landon pant,7850,pant,HK,rising
+double knee pant,80,pant,HK,rising
+dress code,100,dress,HK,top
+wedding dress,37,dress,HK,top
+black dress,36,dress,HK,top
+dress up,32,dress,HK,top
+white dress,27,dress,HK,top
+red dress,17,dress,HK,top
+dress 中文,16,dress,HK,top
+party dress,14,dress,HK,top
+my dress,13,dress,HK,top
+dress shirt,13,dress,HK,top
+pink dress,11,dress,HK,top
+dress to impress,11,dress,HK,top
+formal dress,11,dress,HK,top
+maxi dress,11,dress,HK,top
+dress shoes,10,dress,HK,top
+chinese dress,10,dress,HK,top
+zara dress,10,dress,HK,top
+zara,10,dress,HK,top
+midi dress,9,dress,HK,top
+cocktail dress,7,dress,HK,top
+silk dress,7,dress,HK,top
+skirt,7,dress,HK,top
+bridal dress,7,dress,HK,top
+black tie dress code,6,dress,HK,top
+dress up darling,6,dress,HK,top
+wedding dress hong kong,49500,dress,HK,rising
+sydney sweeney dress,29350,dress,HK,rising
+victoria beckham dress,15650,dress,HK,rising
+babyboo,13450,dress,HK,rising
+muslin dress,2000,dress,HK,rising
+peppermayo dress,1900,dress,HK,rising
+annual dinner dress,1250,dress,HK,rising
+prom dress hk,1150,dress,HK,rising
+holly ramsay wedding dress,950,dress,HK,rising
+rihoas dress,350,dress,HK,rising
+velvet dress,300,dress,HK,rising
+sydney sweeney,200,dress,HK,rising
+wedding dress cream,200,dress,HK,rising
+bridesmaid dress,200,dress,HK,rising
+party dress hk,200,dress,HK,rising
+knit dress,170,dress,HK,rising
+cheongsam dress,150,dress,HK,rising
+formal dress code,140,dress,HK,rising
+zara party dress,120,dress,HK,rising
+bridal dress,110,dress,HK,rising
+academic dress,100,dress,HK,rising
+maid dress,100,dress,HK,rising
+lounge dress,90,dress,HK,rising
+christmas party dress code,70,dress,HK,rising
+sequin dress,60,dress,HK,rising

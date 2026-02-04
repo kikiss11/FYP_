@@ -1,0 +1,173 @@
+version: "3.9"
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: trends-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: google_trends
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache (Optional)
+  redis:
+    image: redis:7-alpine
+    container_name: trends-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # FastAPI Backend
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: api
+    container_name: trends-api
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/google_trends
+      REDIS_URL: redis://redis:6379/0
+      API_HOST: 0.0.0.0
+      API_PORT: 8000
+      NEWSAPI_KEY: ${NEWSAPI_KEY:-}
+      GNEWS_API_KEY: ${GNEWS_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434}
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+      - ./config.yaml:/app/config.yaml
+    command: uvicorn src.api.main:app --host 0.0.0.0 --port 8000
+
+  # Scheduler Service
+  scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: scheduler
+    container_name: trends-scheduler
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/google_trends
+      REDIS_URL: redis://redis:6379/0
+      SCHEDULER_ENABLED: "true"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+      - ./config.yaml:/app/config.yaml
+    command: python -m src.scraper.scheduler
+
+  # Streamlit Dashboard - Google Trends
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dashboard
+    container_name: trends-dashboard
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/google_trends
+    ports:
+      - "8501:8501"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+      - ./config.yaml:/app/config.yaml
+    command: streamlit run src/dashboard/app.py --server.port 8501 --server.address 0.0.0.0
+
+  # Streamlit Dashboard - Tariff News Analyzer
+  news-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dashboard
+    container_name: news-dashboard
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/google_trends
+      NEWSAPI_KEY: ${NEWSAPI_KEY:-}
+      GNEWS_API_KEY: ${GNEWS_API_KEY:-}
+    ports:
+      - "8502:8502"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+      - ./config.yaml:/app/config.yaml
+    command: streamlit run src/news_analyzer/dashboard.py --server.port 8502 --server.address 0.0.0.0
+
+  # Streamlit Dashboard - E-Commerce Analyzer
+  ecommerce-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dashboard
+    container_name: ecommerce-dashboard
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/google_trends
+    ports:
+      - "8503:8503"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+      - ./config.yaml:/app/config.yaml
+    command: streamlit run src/ecommerce/dashboard.py --server.port 8503 --server.address 0.0.0.0
+
+  # Streamlit Dashboard - Macroeconomic Trade Analyzer
+  macro-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: dashboard
+    container_name: macro-dashboard
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/google_trends
+      API_BASE_URL: http://api:8000
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434}
+      FRED_API_KEY: ${FRED_API_KEY:-}
+    ports:
+      - "8504:8504"
+    depends_on:
+      - api
+    volumes:
+      - ./data:/app/data
+      - ./config.yaml:/app/config.yaml
+    command: streamlit run src/macro_analyzer/dashboard.py --server.port 8504 --server.address 0.0.0.0
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  default:
+    name: trends-network
+

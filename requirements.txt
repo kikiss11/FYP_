@@ -1,0 +1,67 @@
+# Google Trends Scraper - Dependencies
+# Python 3.11+
+
+# ===== Core =====
+pytrends==4.9.2              # Google Trends unofficial API
+urllib3<2.0.0                # HTTP library (pinned for pytrends compatibility)
+requests>=2.31.0             # HTTP client
+python-dotenv>=1.0.0         # Environment management
+pyyaml>=6.0.1                # YAML configuration
+
+# ===== Database =====
+sqlalchemy>=2.0.25           # ORM
+psycopg2-binary>=2.9.9       # PostgreSQL adapter
+alembic>=1.13.1              # Database migrations
+
+# ===== API Framework =====
+fastapi>=0.109.0             # Web framework
+uvicorn[standard]>=0.27.0    # ASGI server
+pydantic>=2.5.3              # Data validation
+pydantic-settings>=2.1.0     # Settings management
+
+# ===== Scheduling =====
+apscheduler>=3.10.4          # Job scheduler
+
+# ===== Caching =====
+redis>=5.0.1                 # Redis client
+hiredis>=2.3.2               # Redis parser speedup
+
+# ===== Data Processing =====
+pandas>=2.2.0                # Data manipulation
+numpy>=1.26.3                # Numerical operations
+scipy>=1.12.0                # Scientific computing
+
+# ===== Machine Learning =====
+scikit-learn>=1.4.0          # ML library for predictions
+
+# ===== NLP & Text Analysis =====
+transformers>=4.36.0         # HuggingFace transformers (FinBERT)
+torch>=2.1.0                 # PyTorch (for transformers)
+spacy>=3.7.2                 # NLP toolkit
+textblob>=0.17.1             # Simple NLP (fallback sentiment)
+sentencepiece>=0.1.99        # Tokenizer
+
+# ===== LLM Integration =====
+openai>=1.10.0               # OpenAI API (GPT-4o-mini)
+anthropic>=0.18.0            # Anthropic API (Claude)
+
+# ===== Web Scraping =====
+beautifulsoup4>=4.12.0       # HTML parsing
+lxml>=5.1.0                  # Fast XML/HTML parser
+
+# ===== Visualization =====
+streamlit>=1.30.0            # Dashboard framework
+plotly>=5.18.0               # Interactive charts
+matplotlib>=3.8.2            # Static charts
+
+# ===== Development =====
+pytest>=7.4.4                # Testing framework
+pytest-asyncio>=0.23.3       # Async testing
+httpx>=0.26.0                # Async HTTP client for testing
+black>=24.1.0                # Code formatter
+ruff>=0.1.13                 # Linter
+
+# ===== Logging =====
+loguru>=0.7.2                # Enhanced logging
+rich>=13.7.0                 # Rich terminal output
+
