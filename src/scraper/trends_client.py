@@ -84,7 +84,7 @@ class TrendsClient:
             logger.info(f"Adding extra delay ({extra_delay}s) to avoid rate limiting...")
             time.sleep(extra_delay)
         
-        self._smart_delay()
+        time.sleep(self.request_delay)
 
     def _build_payload(
         self,

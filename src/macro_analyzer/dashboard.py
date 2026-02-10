@@ -21,7 +21,8 @@ except ImportError:
 
 # Configuration - use environment variable or default
 import os
-API_BASE_URL = os.getenv("API_BASE_URL", "http://api:8000")
+# Default to localhost for non-Docker environments. In Docker, set API_BASE_URL=http://api:8000
+API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
 
 st.set_page_config(
     page_title="Macro Trade Analyzer | Women's Apparel",
